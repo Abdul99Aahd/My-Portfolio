@@ -22,12 +22,13 @@ img {
     padding: 10px;
     margin: 0 auto;
     margin-left: 10px;
+    width: 150px;
 }
 
 #top-first-navbar {
     position: absolute;
-    top: 13px;
-    left: 100px;
+    top: 9px;
+    left: 150px;
     list-style-type: none;
 }
 
@@ -96,7 +97,7 @@ button {
     top: -25px;
     left: 48.5%;
     height: 32px;
-    width: 96px;
+    width: 100px;
     border-radius: 60px;
     border-style: hidden;
     background-color: white;
@@ -105,9 +106,9 @@ button {
 #search {
     position: relative;
     top: -25px;
-    left: 49%;
+    left: 48.3%;
     height: 32px;
-    width: 230px;
+    width: 210px;
     border-radius: 60px;
     border-style: hidden;
 
@@ -126,7 +127,7 @@ p {
 
 #Login {
     position: absolute;
-    top: 9px;
+    top: 7px;
     left: 81.5%;
     width: 105px;
     height: 45px;
@@ -139,7 +140,7 @@ p {
 
 #signup {
     position: absolute;
-    top: 9px;
+    top: 7px;
     left: 89.5%;
     width: 105px;
     height: 45px;
@@ -160,11 +161,11 @@ a>#signup:hover {
 
 #top-second-navbar {
     position: absolute;
-    top: 7%;
+    top: 8%;
     left: -15px;
-    float: left;
+    float: center;
     list-style-type: none;
-    width: 90%;
+    width: 100%;
     color: #001e00;
     position: fixed;
     z-index: 100;
