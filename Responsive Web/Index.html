@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="css/all.css">
+  <title>Responsive Web</title>
+
+</head>
+
+<body>
+  <header>
+
+
+
+
+
+    <nav class="navbar">
+      <img src="./logo/logo-w.png">
+
+      <ul class="navbar-menu">
+
+        <li class="navbar-item">
+          <a href="#" onclick="resizeView('100%')" class="navbar-link">
+            <i class="fa-solid fa-tv"></i>
+          </a>
+        </li>
+        <li class="navbar-item">
+          <a href="#" onclick="resizeView('1200px')" class="navbar-link">
+            <i class="fa-solid fa-laptop"></i>
+
+          </a>
+        </li>
+        <li class="navbar-item">
+          <a href="#" onclick="resizeView('700px')" class="navbar-link">
+            <i class="fa-solid fa-tablet-screen-button"></i>
+
+          </a>
+        </li>
+        <li class="navbar-item">
+          <a href="#" onclick="resizeView('350px')" class="navbar-link">
+            <i class="fa-solid fa-mobile-button"></i>
+
+          </a>
+        </li>
+
+      </ul>
+      
+      <div style="width:123px; text-align:right" >
+        <i class="fa-solid fa-xmark colorblack"></i>
+        
+            </div>
+    </nav>
+  </header>
+
+
+  <div class="box-container">
+    <div style="flex:100%; margin:50px 0; color:white">
+      <h1>Choose a License</h1>
+      <h2>Find the perfect license for your project</h2>
+    </div>
+    <div class="box free-box">
+      <p class="box-title">Free</p>
+      <p class="price">$0<span class="per-month">per-month</span></p>
+      <button href="#" class="get-plan-button1">Get Plan</button>
+    </div>
+    <div class="box standard-box">
+      <p class="box-title">Standerd</p>
+      <p class="price">$29<span class="per-month">per-month</span></p>
+      <button href="#" class="get-plan-button2">Get Plan</button>
+    </div>
+    <div class="box business-box">
+      <p class="box-title">Business</p>
+      <p class="price">$59<span class="per-month">per-month</span></p>
+      <button href="#" class="get-plan-button3">Get Plan</button>
+    </div>
+
+    <footer style="flex:100%; margin-top:50px;">
+      <p>Template Created By Syed Abdul Ahad</p>
+    </footer>
+  </div>
+  
+
+  <script>
+    function resizeView(width) {
+      document.querySelectorAll('.box-container')[0].style.maxWidth = width;
+    }
+  </script>
+</body>
+
+</html>

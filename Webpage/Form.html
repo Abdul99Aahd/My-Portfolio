@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Admission Form</title>
+   <style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    body{
+        
+        background-image: linear-gradient(#00ddfa, white 50%);
+        
+    }
+    header{
+        background-color: white;
+        display: flex;
+        justify-content: space-between; /* Horizontal ALignment*/
+        align-items: center; /* Vatrical ALignment*/
+    }
+    nav{
+        background-color: #00ddfa;
+        padding:20px;
+    }
+    nav > ul{
+        display: flex;
+        gap:20px;
+        list-style-type: none;
+        padding-left: 0;
+        
+    }
+    
+</style>
+
+
+</head>
+<body>
+    <header>
+        <div style="padding:30px">
+            <img src="logo2.png">   
+        </div>
+        <div>
+            <img src="Iqra-bg.png" >
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li> <a href="./Assignment 3.html">Home </a></li>
+            <li> <a href="./Resumecomplete.html">Resume</a></li>
+            <li> <a href="./Form.html">Form</a></li>
+            <li> <a href="./Gallery.html">Gallery</a></li>
+            <li> <a href="./PeriodicTable.html">PeriodicTable</a></li>
+        </ul>
+    </nav>
+    <table>
+    <form  style="text-align:center">  
+        <div>
+        <label> Firstname </label>         
+            <input type="text" name="firstname" size="15"/> <br> <br>  
+        <label> Middlename: </label>     
+            <input type="text" name="middlename" size="15"/> <br> <br>  
+        <label> Lastname: </label>         
+            <input type="text" name="lastname" size="15"/> <br> <br>  
+        </div>
+        <div>
+        <label>   
+        Course :  
+        </label>   
+        <select>  
+            <option value="Course">Course</option>  
+            <option value="BCA">BCA</option>  
+            <option value="BBA">BBA</option>  
+            <option value="B.Tech">B.Tech</option>  
+            <option value="MBA">MBA</option>  
+            <option value="MCA">MCA</option>  
+            <option value="M.Tech">M.Tech</option>  
+        </select>  
+        </div>
+        <br>  
+        
+        <div>
+        <label>   
+        Gender :  
+        </label><br>  
+        <input type="radio" name="male"/> Male <br>  
+        <input type="radio" name="female"/> Female <br>  
+        <input type="radio" name="other"/> Other  
+        </div>
+        <br>  
+        <div>          
+        <label>   
+        Phone :  
+        </label>  
+        <input type="text" name="country code"  value="+91" size="2"/>   
+        <input type="text" name="phone" size="10"/> <br> <br>  
+        </div>
+        <div>
+        <label>
+        Address : 
+        <br>  
+        <textarea cols="35" rows="5" value="address">  
+        </textarea>
+        </label>
+        </div>  
+        <br> <br>  
+        <div>
+        <label>
+        Email:  
+        <input type="email" id="email" name="email"/> <br>    
+        
+        </label>
+        <br> 
+        
+        <label>  
+        Password:  
+        <input type="Password" id="pass" name="pass"> <br>   
+        </label>    
+          <br> 
+        <label>Re-type password:  
+        <input type="Password" id="repass" name="repass"> <br> <br>  
+        <input type="button" value="Submit"/>  
+        </label>    
+          </div>          
+    </form>
+</table>
+</body>
+</html>
