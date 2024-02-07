@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Interior Design</title>
+
+</head>
+
+<body>
+  <header>
+
+
+
+
+
+    <nav class="navbar">
+      <img src="./logo-w.png">
+
+      <ul class="navbar-menu">
+
+        <li class="navbar-item">
+          <a href="#" onclick="resizeView('100%')" class="navbar-link">
+            <i class="fa-solid fa-tv"></i>
+          </a>
+        </li>
+        <li class="navbar-item">
+          <a href="#" onclick="resizeView('1200px')" class="navbar-link">
+            <i class="fa-solid fa-laptop"></i>
+
+          </a>
+        </li>
+        <li class="navbar-item">
+          <a href="#" onclick="resizeView('700px')" class="navbar-link">
+            <i class="fa-solid fa-tablet-screen-button"></i>
+
+          </a>
+        </li>
+        <li class="navbar-item">
+          <a href="#" onclick="resizeView('350px')" class="navbar-link">
+            <i class="fa-solid fa-mobile-button"></i>
+
+          </a>
+        </li>
+
+      </ul>
+      
+      <div style="width:123px; text-align:right" >
+        <i class="fa-solid fa-xmark colorblack"></i>
+        
+            </div>
+    </nav>
+  </header>
+
+
+  <div class="box-container">
+    <div class="bg-img"></div>
+    <div class="empty-cont"></div>
+    
+    <div class="box First-box">
+       <div class="img-1"></div> 
+      <p class="box-title">Design Concept</p>
+      <p class="Sample-text">Sample text. Click to select the text box. Click again or double click to start editing the text. Excepteur sint occaecat cupidatat non proident.</p>
+      <p class="more"><span><a href="#">More</a></span></p>
+    </div>
+    <div class="box Second-box">
+        <div class="img-2"></div>
+      <p class="box-title">Space Planning</p>
+      <p class="Sample-text">Sample text. Click to select the text box. Click again or double click to start editing the text. Excepteur sint occaecat cupidatat non proident.</p>
+      <p class="more"><span><a href="#">More</a></span></p>
+      
+    </div>
+    <div class="box Third-box">
+        <div class="img-3"></div>
+      <p class="box-title">Development</p>
+      <p class="Sample-text">Sample text. Click to select the text box. Click again or double click to start editing the text. Excepteur sint occaecat cupidatat non proident.</p>
+      <p class="more"><span><a href="#">More</a></span></p>
+    </div>
+
+    <footer style="flex:100%; margin-top:50px;">
+      <p>Template Created By Syed Abdul Ahad</p>
+    </footer>
+  </div>
+  
+
+  <script>
+    function resizeView(width) {
+      document.querySelectorAll('.box-container')[0].style.maxWidth = width;
+    }
+  </script>
+              <script src="https://kit.fontawesome.com/84d439e081.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
