@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Income and Expense Tracker</title>
+        <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="video">
+        <video autoplay muted loop id="bg-video">
+            <source src="./Financial Background Video Data Visuals - High Resolution.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+<div class="container">
+    <h1>Income and Expense Tracker</h1>
+    <input type="text" id="incomeInput" placeholder="Enter Income">
+    <input type="button" value="Add Income" onclick="addIncome()">
+    <input type="text" id="expenseInput" placeholder="Enter Expense">
+    <input type="button" value="Add Expense" onclick="addExpense()">
+    <ul id="list"></ul>
+    <div class="balance" id="balance"></div>
+    <div class="account-details">
+        <h2>Account Details</h2>
+        <table>
+            <tr>
+                <th>Total Income</th>
+                <td id="totalIncome">0.00</td>
+            </tr>
+            <tr>
+                <th>Total Expenses</th>
+                <td id="totalExpenses">0.00</td>
+            </tr>
+            <tr>
+                <th>Current Balance</th>
+                <td id="currentBalance">0.00</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
+
